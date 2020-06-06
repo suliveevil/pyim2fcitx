@@ -8,7 +8,7 @@ Convert [[https://github.com/tumashu/pyim][pyim]] dictionary to [[https://fcitx-
 - Copy =pyphrase.mb= to =~/.config/fcitx/pinyin/= or do [[https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)]] as instructed
 - Restart fcitx
 
-You can also use my [[https://github.com/redguardtoo/pyim2fcitx/raw/master/pyphrase.mb][converted pyphrase.mb]], containing 3296385 words.
+You can also use my [[https://github.com/redguardtoo/pyim2fcitx/raw/master/pyphrase.mb][pyphrase.mb]] converted from [[https://github.com/tumashu/pyim-greatdict][pyim-greatdict]], containing 3296385 words.
 * 使用方法
 
 - 运行 =python pyim2fcitx.py my-personal.pyim > my-personal.org=
@@ -16,4 +16,4 @@ You can also use my [[https://github.com/redguardtoo/pyim2fcitx/raw/master/pyphr
 - 复制 =pyphrase.mb= 到 =~/.config/fcitx/pinyin/= 或参照 [[https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)]]
 - 重启 fcitx
 
-也可直接下载 [[https://github.com/redguardtoo/pyim2fcitx/raw/master/pyphrase.mb][我的 pyphrase.mb]], 包含 3296385 个词.
+也可直接下载 [[https://github.com/redguardtoo/pyim2fcitx/raw/master/pyphrase.mb][我的 pyphrase.mb]]. 该词库的数据从 [[https://github.com/tumashu/pyim-greatdict][pyim-greatdict]] 转化过来. 包含 3296385 个词.
