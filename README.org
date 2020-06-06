@@ -4,7 +4,7 @@ Convert [[https://github.com/tumashu/pyim][pyim]] dictionary to [[https://fcitx-
 将 pyim 词库转换成 fcitx 词库
 * Usage
 - Run =python pyim2fcitx.py my-personal.pyim > my-personal.org=
-- Run =createPYMB gbkpy.org my-personal.org=
+- Run =createPYMB gbkpy.org my-personal.org= (=createPYMB= is from =fcitx-tools=)
 - Copy =pyphrase.mb= to =~/.config/fcitx/pinyin/= or do [[https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)]] as instructed
 - Restart fcitx
 
@@ -12,7 +12,7 @@ You can also use my [[https://github.com/redguardtoo/pyim2fcitx/raw/master/pyphr
 * 使用方法
 
 - 运行 =python pyim2fcitx.py my-personal.pyim > my-personal.org=
-- 运行 =createPYMB gbkpy.org my-personal.org=
+- 运行 =createPYMB gbkpy.org my-personal.org= (=createPYMB= 来自于 =fcitx-tools=)
 - 复制 =pyphrase.mb= 到 =~/.config/fcitx/pinyin/= 或参照 [[https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)]]
 - 重启 fcitx
 
